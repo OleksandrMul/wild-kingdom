@@ -227,7 +227,6 @@ body {
 .button--sub {
   position: relative;
   z-index: 2;
-  border-radius: 0;
   background: 0 0;
   color: var(--light-gold);
   text-align: center;
@@ -248,7 +247,7 @@ body {
 }
 @media (max-width:29.99875em) {
   .button--sub {
-    background-color: rgba(239,233,221,.1)
+    border: 1px solid var(--light-gold)
   }
 }
 input[type=email],
