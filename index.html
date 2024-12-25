@@ -10,7 +10,7 @@
 			opacity: 0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20241028020828">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241225175335">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
 
 <body>
 	<div class="wrapper">
-		<header data-scroll="80" data-scroll-show="300" class="header">
+		<header data-lp data-watch data-scroll="85" class="header">
 			<div class="header__container">
 				<div class="header__menu menu">
 					<nav class="menu__body">
@@ -31,7 +31,7 @@
 						</ul>
 					</nav>
 				</div>
-				<img class="header__logo" src="img/logo.svg" alt="header-logo">
+				<a href="#" data-goto-header data-goto=".hero" class="header__logo-link"><img class="header__logo" src="img/logo.svg" alt="header-logo"></a>
 				<div class="header__actions actions-header">
 					<nav class="actions-header__body">
 						<ul data-da=".menu__body, 709.98" class="actions-header__list">
@@ -39,13 +39,15 @@
 							<li class="actions-header__item"><a href="#" class="actions-header__link link">Register</a></li>
 						</ul>
 					</nav>
-					<div class="actions-header__contact"><a href="#" class="actions-header__button button button--bd"><span>Contact</span></a></div>
+					<div class="actions-header__contact"><a href="#" data-popup="#popup" class="actions-header__button button button--bd"><span>Contact</span></a></div>
 					<button type="button" class="actions-header__icon icon-menu"><span></span></button>
 				</div>
 			</div>
 		</header>
+
+
 		<main class="page">
-			<section data-watch-threshold="0.1" data-watch="navigator" class="page__hero hero">
+			<section data-watch-threshold="0.005" data-watch="navigator" class="page__hero hero">
 				<div class="hero__container">
 					<div class="hero__block-header block-header">
 						<h1 class="block-header__title block-header__title--main">A better world for pets</h1>
@@ -91,7 +93,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-watch-threshold="0.2" data-watch="navigator" class="page__about about">
+			<section data-watch-threshold="0.1" data-watch="navigator" class="page__about about">
 				<div data-prlx-parent class="about__container">
 					<div class="about__body">
 						<div data-coefficient="350" data-prlx data-direction="-1" data-prlx class="about__image"><img src="img/about/image.webp" alt="about-image"></div>
@@ -123,7 +125,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-watch-threshold="0.05" data-watch="navigator" class="page__products products">
+			<section data-watch-threshold="0.01" data-watch="navigator" class="page__products products">
 				<div class="products__container">
 					<div class="products__header-block block-header">
 						<div class="block-header__label">Our Products</div>
@@ -263,33 +265,33 @@
 					</div>
 				</div>
 			</section>
-			<div data-watch class="page__advantages advantages">
-				<div data-gallery class="advantages__container">
-					<div class="advantages__row">
-						<div class="advantages__item item-advantages">
-							<div class="item-advantages__body item-advantages__body--small">
-								<a href="img/gallery/01.webp" class="item-advantages__image item-advantages__image--small"><img data-src="img/gallery/01.webp" alt="advantage-image"></a>
-								<h4 class="item-advantages__title"><a href="#" class="item-advantages__title-link _icon-slider-arrow">Taking dogs care to the next level</a></h4>
+			<div data-watch class="page__gallery gallery">
+				<div data-gallery class="gallery__container">
+					<div class="gallery__row">
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__body item-gallery__body--small">
+								<a href="img/gallery/01.webp" class="item-gallery__image item-gallery__image--small"><img data-src="img/gallery/01.webp" alt="gallery-image-01"></a>
+								<h4 class="item-gallery__title"><a href="#" class="item-gallery__title-link _icon-slider-arrow">Taking dogs care to the next level</a></h4>
 							</div>
 						</div>
-						<div class="advantages__item item-advantages">
-							<div class="item-advantages__body">
-								<a href="img/gallery/02.webp" class="item-advantages__image"><img data-src="img/gallery/02.webp" alt="advantage-image"></a>
-								<h4 class="item-advantages__title"><a href="#" class="item-advantages__title-link _icon-slider-arrow">We value the best health of your pets</a></h4>
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__body">
+								<a href="img/gallery/02.webp" class="item-gallery__image"><img data-src="img/gallery/02.webp" alt="gallery-image-02"></a>
+								<h4 class="item-gallery__title"><a href="#" class="item-gallery__title-link _icon-slider-arrow">We value the best health of your pets</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="advantages__row">
-						<div class="advantages__item item-advantages">
-							<div class="item-advantages__body">
-								<a href="img/gallery/03.webp" class="item-advantages__image"><img data-src="img/gallery/03.webp" alt="advantage-image"></a>
-								<h4 class="item-advantages__title"><a href="#" class="item-advantages__title-link _icon-slider-arrow">Trust us with your pet’s vacation</a></h4>
+					<div class="gallery__row">
+						<div class="gallery__item item-gallery">
+							<div class="item-gallery__body">
+								<a href="img/gallery/03.webp" class="item-gallery__image"><img data-src="img/gallery/03.webp" alt="gallery-image-03"></a>
+								<h4 class="item-gallery__title"><a href="#" class="item-gallery__title-link _icon-slider-arrow">Trust us with your pet’s vacation</a></h4>
 							</div>
 						</div>
-						<div class="advantages__item item-advantages item-advantages--right">
-							<div class="item-advantages__body item-advantages__body--right item-advantages__body--small">
-								<a href="img/gallery/04.webp" class="item-advantages__image item-advantages__image--small"><img data-src="img/gallery/04.webp" alt="advantage-image"></a>
-								<h4 class="item-advantages__title"><a href="#" class="item-advantages__title-link _icon-slider-arrow">We treat cats with utmost care</a></h4>
+						<div class="gallery__item item-gallery item-gallery--right">
+							<div class="item-gallery__body item-gallery__body--right item-gallery__body--small">
+								<a href="img/gallery/04.webp" class="item-gallery__image item-gallery__image--small"><img data-src="img/gallery/04.webp" alt="gallery-image-04"></a>
+								<h4 class="item-gallery__title"><a href="#" class="item-gallery__title-link _icon-slider-arrow">We treat cats with utmost care</a></h4>
 							</div>
 						</div>
 					</div>
@@ -301,7 +303,7 @@
 						<div class="contacts__image contacts__image--1"><img src="img/contacts/01.webp" alt="contacts-image"></div>
 						<div class="contacts__image contacts__image--2">
 							<img src="img/contacts/02.webp" alt="contact-image">
-							<a href="#" class="contacts__play-media _icon-play"><span></span></a>
+							<button data-popup="#video" data-popup-youtube="xE4pAOiSaII" class="contacts__play-media _icon-play"><span></span></button>
 						</div>
 					</div>
 					<div class="contacts__header">
@@ -320,7 +322,7 @@
 								</ul>
 							</adress>
 							<div class="block-header__actions">
-								<a href="#" class="block-header__button button"><span>Contact</span></a>
+								<a href="#" data-popup="#popup" class="block-header__button button"><span>Contact</span></a>
 							</div>
 						</div>
 					</div>
@@ -377,6 +379,51 @@
 				</div>
 			</section>
 		</main>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="28" height="28" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+						</svg>
+					</button>
+					<div class="popup__text">
+						<h2 class="popup__title">Contact Us</h2>
+						<form action="#" class="popup__form form">
+							<div class="form__line">
+								<input autocomplete="off" data-required="text" type="text" name="form[]" data-error="Error: Input filed don't be empty" placeholder="Name" class="form__input input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" data-required="email" type="email" name="form[]" data-error="Error: Input filed don't be empty or email is wrong." placeholder="Email" class="form__input input">
+							</div>
+							<div class="form__line">
+								<input autocomplete="off" data-required="tel" type="tel" name="form[]" data-error="Error: Input filed don't be empty" placeholder="Phone number" class="form__input input">
+							</div>
+							<div class="form__line">
+								<button type="submit" class="form__button button button--bd"><span>Send</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="video" aria-hidden="true" class="popup popup--video">
+			<div class="popup__wrapper">
+				<div class="popup__content popup__content--video">
+					<button data-close type="button" class="popup__close popup__close--video">
+						<svg width="28" height="28" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square" />
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square" />
+						</svg>
+					</button>
+					<div data-youtube-place class="popup__text popup__text--video">
+
+					</div>
+				</div>
+			</div>
+		</div>
 		<footer data-watch class="footer">
 			<div class="footer__container">
 				<div class="footer__top">
@@ -401,7 +448,7 @@
 						</div>
 					</div>
 					<div data-da=".footer__container, 1092.98,0" class="footer__column">
-						<div class="footer__logo"><img src="img/footer-logo.svg" alt="footer-logo"></div>
+						<a href="#" data-goto-header data-goto=".hero" class="footer__logo"><img src="img/footer-logo.svg" alt="footer-logo"></a>
 					</div>
 					<div class="footer__column footer__column--sub">
 						<div class="footer__subscribe subscribe-footer">
@@ -423,7 +470,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241028020828"></script>
+	<script src="js/app.min.js?_v=20241225175335"></script>
 </body>
 
 </html>
