@@ -3,7 +3,7 @@
 **Role:**  
 Front-End Developer | Responsive Design | JavaScript Interactivity | Custom Popups  
 
-[![Watch Video Presentation](img/wild-kingdom.webp)](https://youtu.be/0uUDZE7M0xQ)
+[![Watch Video Presentation](img/mockup_wild-kingdom.webp)](https://youtu.be/0uUDZE7M0xQ)
 
 🌐 [View Live Project](https://oleksandrmul.github.io/wild-kingdom/)
 
